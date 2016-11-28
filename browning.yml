@@ -20,6 +20,7 @@
         - robomongo
         - calibre
         - macpilot
+        - transmission
 
     - name: set custom shell
       command: chsh -s /bin/zsh Browning
