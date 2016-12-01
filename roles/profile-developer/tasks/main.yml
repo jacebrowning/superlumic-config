@@ -10,6 +10,7 @@
     - rsync
     - pv
     - jq
+    - shellcheck
     - openjpeg
     - imagemagick
     - freetype
