@@ -23,6 +23,7 @@
     - memcached
     - redis
     - rabbitmq
+    - pass
     - heroku
     - phantomjs
     - graphviz
