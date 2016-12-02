@@ -21,6 +21,7 @@
         - calibre
         - macpilot
         - transmission
+        - lastfm
 
     - name: set custom shell
       command: chsh -s /bin/zsh Browning
