@@ -33,6 +33,7 @@
   homebrew_cask: name={{item}} state=present
   with_items:
     - github-desktop
+    - diffmerge
     - p4merge
     - vagrant
     - firefox
