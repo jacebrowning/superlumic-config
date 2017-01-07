@@ -71,7 +71,7 @@
     - { name: pip, version: 9.0.1 }
     - { name: virtualenv, version: 15.0.3 }
     - { name: cookiecutter, version: 1.4.0 }
-    - { name: gitman, version: 1.0.2 }
+    - { name: gitman, version: 1.1 }
     - { name: coverage.space, version: 0.6.3 }
 
 # rbenv
