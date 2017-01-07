@@ -58,6 +58,7 @@
     content: |
       3.6.0
       2.7.12
+      3.5.2
 
 - name: rehash pyenv shims
   command: pyenv rehash
