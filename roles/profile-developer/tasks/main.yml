@@ -37,6 +37,7 @@
     - p4merge
     - vagrant
     - firefox
+    - ngrok
 
 # pyenv
 
