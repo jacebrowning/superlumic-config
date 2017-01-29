@@ -85,12 +85,13 @@
   with_items:
     - 2.2.5
     - 2.3.3
+    - 2.4.0
 
 - name: set global ruby versions
   copy:
     dest: ~/.rbenv/version
     content: |
-      2.3.3
+      2.4.0
 
 - name: rehash rbenv shims
   command: rbenv rehash
