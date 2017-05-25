@@ -49,8 +49,7 @@
     env PYTHON_CONFIGURE_OPTS="--enable-framework"
     pyenv install --skip-existing {{item}}
   with_items:
-    - 2.7.12
-    - 3.5.2
+    - 2.7.13
     - 3.6.1
 
 - name: set global python versions
@@ -58,8 +57,7 @@
     dest: ~/.pyenv/version
     content: |
       3.6.1
-      2.7.12
-      3.5.2
+      2.7.13
 
 - name: rehash pyenv shims
   command: pyenv rehash
