@@ -71,8 +71,8 @@
     - { name: virtualenv, version: 15.0.3 }
     - { name: pipenv, version: 4.1.1 }
     - { name: cookiecutter, version: 1.4.0 }
-    - { name: gitman, version: 1.1 }
-    - { name: coverage.space, version: 0.6.3 }
+    - { name: gitman, version: 1.4.0 }
+    - { name: coverage.space, version: 0.8.0 }
 
 # rbenv
 
