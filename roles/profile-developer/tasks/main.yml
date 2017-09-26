@@ -38,6 +38,7 @@
     - vagrant
     - firefox
     - ngrok
+    - gpgtools
 
 # pyenv
 
