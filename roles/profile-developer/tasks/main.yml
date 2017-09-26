@@ -108,13 +108,14 @@
 - name: install node versions
   command: nodenv install --skip-existing {{item}}
   with_items:
+    - 6.2.2
     - 6.11.2
 
 - name: set global node versions
   copy:
     dest: ~/.nodenv/version
     content: |
-      6.11.2
+      6.2.2
 
 - name: rehash nodenv shims
   command: nodenv rehash
