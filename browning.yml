@@ -27,7 +27,7 @@
 
     - name: link to this configuration code
       file: src=/usr/local/superlumic/config
-            dest=~/Programs/superlumic-config
+            dest=~/Documents/superlumic-config
             state=link
 
     - name: apply global dotfiles
@@ -35,16 +35,16 @@
            dest=~/.dotfiles
            update=no
     - file: src=~/.dotfiles
-            dest=~/Programs/dotfiles
+            dest=~/Documents/dotfiles
             state=link
-    - command: make -C ~/Programs/dotfiles
+    - command: make -C ~/Documents/dotfiles
 
     - name: apply sublime text settings
       git: repo=https://github.com/jacebrowning/sublime-settings
            dest="~/Library/Application Support/Sublime Text 3/Packages/User"
            update=no
     - file: src="~/Library/Application Support/Sublime Text 3/Packages/User"
-            dest=~/Programs/sublime-settings
+            dest=~/Documents/sublime-settings
             state=link
 
     - name: install personal python packages

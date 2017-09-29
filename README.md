@@ -33,7 +33,7 @@ $ make
 ## Updates
 
 ```
-$ cd ~/Programs/superlumic-config
+$ cd ~/Documents/superlumic-config
 
 $ git pull
 
