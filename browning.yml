@@ -21,6 +21,10 @@
         - transmission
         - lastfm
 
+    - name: install oh-my-zsh
+      git: repo=https://github.com/robbyrussell/oh-my-zsh
+           dest=~/.oh-my-zsh
+
     - name: set custom shell
       command: chsh -s /bin/zsh Browning
       become: true
