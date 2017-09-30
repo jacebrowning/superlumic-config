@@ -24,7 +24,6 @@
     - phantomjs
     - graphviz
     - pandoc
-    - java
 
 - name: install developer cask applications
   homebrew_cask: name={{item}} state=present
@@ -38,6 +37,7 @@
     - gpgtools
     - iterm2
     - docker
+    - java8
 
 # pyenv
 
